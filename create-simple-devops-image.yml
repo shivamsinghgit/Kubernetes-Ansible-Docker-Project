@@ -10,7 +10,7 @@
         chdir: /opt/docker
 
     - name: create tag to image
-      command: docker tag simple-devops-image shiavm1502/simple-devops-image
+      command: docker tag simple-devops-image shivam1502/simple-devops-image
 
     - name: push image on to dockerhub
       command: docker push shivam1502/simple-devops-image
